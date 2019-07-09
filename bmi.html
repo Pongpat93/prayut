@@ -42,7 +42,7 @@ body {
 </head>
 <body>
 <div align="center">
-  <?php
+ 
   weight=_POST['weight'];
   height=_POST ['height'] ;
 
@@ -67,13 +67,12 @@ body {
        c="อ้วนมาก / โรคอ้วนระดับ 3";
        s="อันตรายระดับ 3";   
   }
-   ?>
    <h2>โปรแกรมคำนวณหาค่าดัชนีมวลกาย(BMI)</h2>
    
    <p align="center">
-   <b>BMI : </b><?php echo $bmi;?> bmi<br /><br />
-   <b>อยู่ในเกณท์ : </b><?php echo $c;?><br /><br />
-   <b>ภาวะเสี่ยงต่อโรค : </b><?php echo $s;?>
+   <b>BMI : </b><?php echo bmi;?> bmi<br /><br />
+   <b>อยู่ในเกณท์ : </b><?php echo c;?><br /><br />
+   <b>ภาวะเสี่ยงต่อโรค : </b><?php echo s;?>
    
    </p>   
  
